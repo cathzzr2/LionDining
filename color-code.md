@@ -1,3 +1,35 @@
-### Color Code
-Columbia Blue Sample
-![Columbia Blue]([http://images.bwog.com/wp-content/uploads/2016/09/Color-Swatch.png](https://github.com/cathzzr2/LionDining/blob/main/Assets/columbia-blue-color-code.png))
+# LionDining App Color Code
+
+These colors are used throughout the LionDining app to maintain consistency with Columbia University's branding guidelines, despite the variations mentioned in the source article.
+
+## Sample 
+![Columbia Blue]([https://github.com/cathzzr2/LionDining/blob/main/Assets/columbia-blue-color-code.png])
+
+## Source and Credit
+This document outlines the color codes used in the LionDining app, including their HEX and RGB values. The source of this information is obtained from [Bwog.com](https://bwog.com/2016/09/nobody-knows-what-columbia-blue-is/).
+
+## HEX and RGB Values
+
+### Pantone 284
+- **HEX:** #75aadb
+- **RGB:** rgba(117,170,219,255)
+
+### Pantone 290
+- **HEX:** #c4d8e2
+- **RGB:** rgba(196,216,226,255)
+
+### Pantone 291
+- **HEX:** #a8cee2
+- **RGB:** rgba(168,206,226,255)
+
+### Pantone 291 (Light Blue)
+- **HEX:** #baffff
+- **RGB:** rgba(186,255,255,255)
+
+### Pantone 292
+- **HEX:** #69b3e7
+- **RGB:** rgba(105,179,231,255)
+
+### Pantone 2955 (Dark Blue)
+- **HEX:** #004aa8
+- **RGB:** rgba(0,74,168,255)
