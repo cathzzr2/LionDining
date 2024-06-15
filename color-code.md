@@ -3,7 +3,7 @@
 These colors are used throughout the LionDining app to maintain consistency with Columbia University's branding guidelines, despite the variations mentioned in the source article.
 
 ## Sample 
-![Columbia Blue]([https://github.com/cathzzr2/LionDining/blob/main/Assets/columbia-blue-color-code.png])
+![Columbia Blue](https://github.com/cathzzr2/LionDining/blob/main/Assets/columbia-blue-color-code.png)
 
 ## Source and Credit
 This document outlines the color codes used in the LionDining app, including their HEX and RGB values. The source of this information is obtained from [Bwog.com](https://bwog.com/2016/09/nobody-knows-what-columbia-blue-is/).
