@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA42A4F72C1E439600B661F4 /* LionDiningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA42A4F62C1E439600B661F4 /* LionDiningApp.swift */; };
+		CA42A4F92C1E439600B661F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA42A4F82C1E439600B661F4 /* ContentView.swift */; };
+		CA42A4FB2C1E439700B661F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA42A4FA2C1E439700B661F4 /* Assets.xcassets */; };
+		CA42A4FE2C1E439700B661F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA42A4FD2C1E439700B661F4 /* Preview Assets.xcassets */; };
+		CA42A5082C1E439800B661F4 /* LionDiningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA42A5072C1E439800B661F4 /* LionDiningTests.swift */; };
+		CA42A5122C1E439800B661F4 /* LionDiningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA42A5112C1E439800B661F4 /* LionDiningUITests.swift */; };
+		CA42A5142C1E439800B661F4 /* LionDiningUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA42A5132C1E439800B661F4 /* LionDiningUITestsLaunchTests.swift */; };
+		CA42A5232C1E43E700B661F4 /* jj-place-cover.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CA42A5202C1E43E700B661F4 /* jj-place-cover.jpeg */; };
+		CA42A5242C1E43E700B661F4 /* columbia-dining-logo-sample.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CA42A5212C1E43E700B661F4 /* columbia-dining-logo-sample.jpeg */; };
+		CA42A5252C1E43E700B661F4 /* john-jay-cover.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CA42A5222C1E43E700B661F4 /* john-jay-cover.jpeg */; };
+		CA42A5282C1E441700B661F4 /* DiningHalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA42A5272C1E441700B661F4 /* DiningHalls.swift */; };
+		CA42A52A2C1E442700B661F4 /* ColorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA42A5292C1E442700B661F4 /* ColorCode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA42A5042C1E439800B661F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA42A4EB2C1E439600B661F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA42A4F22C1E439600B661F4;
+			remoteInfo = LionDining;
+		};
+		CA42A50E2C1E439800B661F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA42A4EB2C1E439600B661F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA42A4F22C1E439600B661F4;
+			remoteInfo = LionDining;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA42A4F32C1E439600B661F4 /* LionDining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LionDining.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA42A4F62C1E439600B661F4 /* LionDiningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LionDiningApp.swift; sourceTree = "<group>"; };
+		CA42A4F82C1E439600B661F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA42A4FA2C1E439700B661F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA42A4FD2C1E439700B661F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA42A5032C1E439800B661F4 /* LionDiningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionDiningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA42A5072C1E439800B661F4 /* LionDiningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LionDiningTests.swift; sourceTree = "<group>"; };
+		CA42A50D2C1E439800B661F4 /* LionDiningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionDiningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA42A5112C1E439800B661F4 /* LionDiningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LionDiningUITests.swift; sourceTree = "<group>"; };
+		CA42A5132C1E439800B661F4 /* LionDiningUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LionDiningUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA42A5202C1E43E700B661F4 /* jj-place-cover.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jj-place-cover.jpeg"; sourceTree = "<group>"; };
+		CA42A5212C1E43E700B661F4 /* columbia-dining-logo-sample.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "columbia-dining-logo-sample.jpeg"; sourceTree = "<group>"; };
+		CA42A5222C1E43E700B661F4 /* john-jay-cover.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "john-jay-cover.jpeg"; sourceTree = "<group>"; };
+		CA42A5272C1E441700B661F4 /* DiningHalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningHalls.swift; sourceTree = "<group>"; };
+		CA42A5292C1E442700B661F4 /* ColorCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCode.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA42A4F02C1E439600B661F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA42A5002C1E439800B661F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA42A50A2C1E439800B661F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA42A4EA2C1E439600B661F4 = {
+			isa = PBXGroup;
+			children = (
+				CA42A4F52C1E439600B661F4 /* LionDining */,
+				CA42A5062C1E439800B661F4 /* LionDiningTests */,
+				CA42A5102C1E439800B661F4 /* LionDiningUITests */,
+				CA42A4F42C1E439600B661F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA42A4F42C1E439600B661F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA42A4F32C1E439600B661F4 /* LionDining.app */,
+				CA42A5032C1E439800B661F4 /* LionDiningTests.xctest */,
+				CA42A50D2C1E439800B661F4 /* LionDiningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA42A4F52C1E439600B661F4 /* LionDining */ = {
+			isa = PBXGroup;
+			children = (
+				CA42A5262C1E440A00B661F4 /* Models */,
+				CA42A4F62C1E439600B661F4 /* LionDiningApp.swift */,
+				CA42A4F82C1E439600B661F4 /* ContentView.swift */,
+				CA42A4FA2C1E439700B661F4 /* Assets.xcassets */,
+				CA42A5202C1E43E700B661F4 /* jj-place-cover.jpeg */,
+				CA42A5212C1E43E700B661F4 /* columbia-dining-logo-sample.jpeg */,
+				CA42A5222C1E43E700B661F4 /* john-jay-cover.jpeg */,
+				CA42A4FC2C1E439700B661F4 /* Preview Content */,
+			);
+			path = LionDining;
+			sourceTree = "<group>";
+		};
+		CA42A4FC2C1E439700B661F4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA42A4FD2C1E439700B661F4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA42A5062C1E439800B661F4 /* LionDiningTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA42A5072C1E439800B661F4 /* LionDiningTests.swift */,
+			);
+			path = LionDiningTests;
+			sourceTree = "<group>";
+		};
+		CA42A5102C1E439800B661F4 /* LionDiningUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA42A5112C1E439800B661F4 /* LionDiningUITests.swift */,
+				CA42A5132C1E439800B661F4 /* LionDiningUITestsLaunchTests.swift */,
+			);
+			path = LionDiningUITests;
+			sourceTree = "<group>";
+		};
+		CA42A5262C1E440A00B661F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CA42A5272C1E441700B661F4 /* DiningHalls.swift */,
+				CA42A5292C1E442700B661F4 /* ColorCode.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA42A4F22C1E439600B661F4 /* LionDining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA42A5172C1E439800B661F4 /* Build configuration list for PBXNativeTarget "LionDining" */;
+			buildPhases = (
+				CA42A4EF2C1E439600B661F4 /* Sources */,
+				CA42A4F02C1E439600B661F4 /* Frameworks */,
+				CA42A4F12C1E439600B661F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LionDining;
+			productName = LionDining;
+			productReference = CA42A4F32C1E439600B661F4 /* LionDining.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA42A5022C1E439800B661F4 /* LionDiningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA42A51A2C1E439800B661F4 /* Build configuration list for PBXNativeTarget "LionDiningTests" */;
+			buildPhases = (
+				CA42A4FF2C1E439800B661F4 /* Sources */,
+				CA42A5002C1E439800B661F4 /* Frameworks */,
+				CA42A5012C1E439800B661F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA42A5052C1E439800B661F4 /* PBXTargetDependency */,
+			);
+			name = LionDiningTests;
+			productName = LionDiningTests;
+			productReference = CA42A5032C1E439800B661F4 /* LionDiningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA42A50C2C1E439800B661F4 /* LionDiningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA42A51D2C1E439800B661F4 /* Build configuration list for PBXNativeTarget "LionDiningUITests" */;
+			buildPhases = (
+				CA42A5092C1E439800B661F4 /* Sources */,
+				CA42A50A2C1E439800B661F4 /* Frameworks */,
+				CA42A50B2C1E439800B661F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA42A50F2C1E439800B661F4 /* PBXTargetDependency */,
+			);
+			name = LionDiningUITests;
+			productName = LionDiningUITests;
+			productReference = CA42A50D2C1E439800B661F4 /* LionDiningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA42A4EB2C1E439600B661F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CA42A4F22C1E439600B661F4 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CA42A5022C1E439800B661F4 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CA42A4F22C1E439600B661F4;
+					};
+					CA42A50C2C1E439800B661F4 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CA42A4F22C1E439600B661F4;
+					};
+				};
+			};
+			buildConfigurationList = CA42A4EE2C1E439600B661F4 /* Build configuration list for PBXProject "LionDining" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA42A4EA2C1E439600B661F4;
+			productRefGroup = CA42A4F42C1E439600B661F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA42A4F22C1E439600B661F4 /* LionDining */,
+				CA42A5022C1E439800B661F4 /* LionDiningTests */,
+				CA42A50C2C1E439800B661F4 /* LionDiningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA42A4F12C1E439600B661F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA42A4FE2C1E439700B661F4 /* Preview Assets.xcassets in Resources */,
+				CA42A5232C1E43E700B661F4 /* jj-place-cover.jpeg in Resources */,
+				CA42A5242C1E43E700B661F4 /* columbia-dining-logo-sample.jpeg in Resources */,
+				CA42A5252C1E43E700B661F4 /* john-jay-cover.jpeg in Resources */,
+				CA42A4FB2C1E439700B661F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA42A5012C1E439800B661F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA42A50B2C1E439800B661F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA42A4EF2C1E439600B661F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA42A52A2C1E442700B661F4 /* ColorCode.swift in Sources */,
+				CA42A5282C1E441700B661F4 /* DiningHalls.swift in Sources */,
+				CA42A4F92C1E439600B661F4 /* ContentView.swift in Sources */,
+				CA42A4F72C1E439600B661F4 /* LionDiningApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA42A4FF2C1E439800B661F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA42A5082C1E439800B661F4 /* LionDiningTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA42A5092C1E439800B661F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA42A5122C1E439800B661F4 /* LionDiningUITests.swift in Sources */,
+				CA42A5142C1E439800B661F4 /* LionDiningUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA42A5052C1E439800B661F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA42A4F22C1E439600B661F4 /* LionDining */;
+			targetProxy = CA42A5042C1E439800B661F4 /* PBXContainerItemProxy */;
+		};
+		CA42A50F2C1E439800B661F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA42A4F22C1E439600B661F4 /* LionDining */;
+			targetProxy = CA42A50E2C1E439800B661F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CA42A5152C1E439800B661F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA42A5162C1E439800B661F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA42A5182C1E439800B661F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LionDining/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cokeorpepsi.LionDining;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA42A5192C1E439800B661F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LionDining/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cokeorpepsi.LionDining;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA42A51B2C1E439800B661F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cokeorpepsi.LionDiningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LionDining.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LionDining";
+			};
+			name = Debug;
+		};
+		CA42A51C2C1E439800B661F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cokeorpepsi.LionDiningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LionDining.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LionDining";
+			};
+			name = Release;
+		};
+		CA42A51E2C1E439800B661F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cokeorpepsi.LionDiningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LionDining;
+			};
+			name = Debug;
+		};
+		CA42A51F2C1E439800B661F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cokeorpepsi.LionDiningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LionDining;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA42A4EE2C1E439600B661F4 /* Build configuration list for PBXProject "LionDining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA42A5152C1E439800B661F4 /* Debug */,
+				CA42A5162C1E439800B661F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA42A5172C1E439800B661F4 /* Build configuration list for PBXNativeTarget "LionDining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA42A5182C1E439800B661F4 /* Debug */,
+				CA42A5192C1E439800B661F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA42A51A2C1E439800B661F4 /* Build configuration list for PBXNativeTarget "LionDiningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA42A51B2C1E439800B661F4 /* Debug */,
+				CA42A51C2C1E439800B661F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA42A51D2C1E439800B661F4 /* Build configuration list for PBXNativeTarget "LionDiningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA42A51E2C1E439800B661F4 /* Debug */,
+				CA42A51F2C1E439800B661F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA42A4EB2C1E439600B661F4 /* Project object */;
+}
