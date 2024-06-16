@@ -33,3 +33,7 @@ The source of this information is obtained from [Bwog.com](https://bwog.com/2016
 #### Pantone 2955 (Dark Blue)
 - **HEX:** #004aa8
 - **RGB:** rgba(0,74,168,255)
+
+#### Barnard 
+- **HEX:** HEX: #01427c
+- **RGB:** rgba(1,66,124,255)
