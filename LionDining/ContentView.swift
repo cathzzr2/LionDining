@@ -204,22 +204,33 @@ struct ContentView: View {
         }
     }
     private func togglePin(for item: DiningHalls) {
-            if let index = diningHalls.firstIndex(where: { $0.name == item.name }) {
+        if let index = diningHalls.firstIndex(where: { $0.name == item.name }) {
                 diningHalls[index].isPinned.toggle()
+                
                 if diningHalls[index].isPinned {
                     // Move pinned item to the top
                     let pinnedItem = diningHalls.remove(at: index)
                     diningHalls.insert(pinnedItem, at: 0)
+                } else {
+                    // Move unpinned item to the end
+                    let unpinnedItem = diningHalls.remove(at: index)
+                    diningHalls.append(unpinnedItem)
                 }
-            } else if let index = retailStores.firstIndex(where: { $0.name == item.name }) {
-                retailStores[index].isPinned.toggle()
-                if retailStores[index].isPinned {
-                    // Move pinned item to the top
-                    let pinnedItem = retailStores.remove(at: index)
-                    retailStores.insert(pinnedItem, at: 0)
-                }
+        } else if let index = retailStores.firstIndex(where: { $0.name == item.name }) {
+            retailStores[index].isPinned.toggle()
+            
+            if retailStores[index].isPinned {
+                // Move pinned item to the top
+                let pinnedItem = retailStores.remove(at: index)
+                retailStores.insert(pinnedItem, at: 0)
+            } else {
+                // Move unpinned item to the end
+                let unpinnedItem = retailStores.remove(at: index)
+                retailStores.append(unpinnedItem)
             }
         }
+    }
+    
 }
 
 #Preview {
