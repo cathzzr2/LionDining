@@ -2,7 +2,7 @@
 LionDining is your ultimate companion for dining at Columbia University, providing comprehensive information on-campus and off-campus dining options for students and faculty.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cathzzr2/LionDining/main/Assets/columbia-dining-logo-sample.jpeg" width="200" height="200" alt="Logo">
+  <img src="https://raw.githubusercontent.com/cathzzr2/LionDining/main/Assets/lion-dining-sample-logo2.jpeg" width="200" height="200" alt="Logo">
 </p>
 
 ### Installation
