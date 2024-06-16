@@ -26,6 +26,10 @@
 		CA42A5372C1E67A300B661F4 /* fac-shack-cover.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CA42A5302C1E67A300B661F4 /* fac-shack-cover.jpeg */; };
 		CA42A5382C1E67A300B661F4 /* chef-don-pizza-pi-cover.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CA42A5312C1E67A300B661F4 /* chef-don-pizza-pi-cover.jpeg */; };
 		CA42A53A2C1E6B2500B661F4 /* grace-dodge-cover.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CA42A5392C1E6B2500B661F4 /* grace-dodge-cover.jpeg */; };
+		CA42A53C2C1F4D5500B661F4 /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA42A53B2C1F4D5500B661F4 /* Labels.swift */; };
+		CA42A53E2C1F50E800B661F4 /* hewitt-food-hall.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CA42A53D2C1F50E700B661F4 /* hewitt-food-hall.jpeg */; };
+		CAD08D1F2C1F53BF00757E70 /* RetailStores.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD08D1E2C1F53BE00757E70 /* RetailStores.swift */; };
+		CAD08D232C1F5FE800757E70 /* sample-logo2-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD08D222C1F5FE700757E70 /* sample-logo2-circle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +72,10 @@
 		CA42A5302C1E67A300B661F4 /* fac-shack-cover.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fac-shack-cover.jpeg"; sourceTree = "<group>"; };
 		CA42A5312C1E67A300B661F4 /* chef-don-pizza-pi-cover.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chef-don-pizza-pi-cover.jpeg"; sourceTree = "<group>"; };
 		CA42A5392C1E6B2500B661F4 /* grace-dodge-cover.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "grace-dodge-cover.jpeg"; path = "../../../Downloads/grace-dodge-cover.jpeg"; sourceTree = "<group>"; };
+		CA42A53B2C1F4D5500B661F4 /* Labels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Labels.swift; path = ../../../../.Trash/LionDining/LionDining/Models/Labels.swift; sourceTree = "<group>"; };
+		CA42A53D2C1F50E700B661F4 /* hewitt-food-hall.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hewitt-food-hall.jpeg"; sourceTree = "<group>"; };
+		CAD08D1E2C1F53BE00757E70 /* RetailStores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailStores.swift; sourceTree = "<group>"; };
+		CAD08D222C1F5FE700757E70 /* sample-logo2-circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sample-logo2-circle.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +130,8 @@
 				CA42A4F62C1E439600B661F4 /* LionDiningApp.swift */,
 				CA42A4F82C1E439600B661F4 /* ContentView.swift */,
 				CA42A4FA2C1E439700B661F4 /* Assets.xcassets */,
+				CAD08D222C1F5FE700757E70 /* sample-logo2-circle.png */,
+				CA42A53D2C1F50E700B661F4 /* hewitt-food-hall.jpeg */,
 				CA42A5312C1E67A300B661F4 /* chef-don-pizza-pi-cover.jpeg */,
 				CA42A52E2C1E67A300B661F4 /* chef-mike-sub-shop-cover.jpeg */,
 				CA42A5302C1E67A300B661F4 /* fac-shack-cover.jpeg */,
@@ -167,6 +177,8 @@
 			children = (
 				CA42A5272C1E441700B661F4 /* DiningHalls.swift */,
 				CA42A5292C1E442700B661F4 /* ColorCode.swift */,
+				CA42A53B2C1F4D5500B661F4 /* Labels.swift */,
+				CAD08D1E2C1F53BE00757E70 /* RetailStores.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -285,8 +297,10 @@
 				CA42A53A2C1E6B2500B661F4 /* grace-dodge-cover.jpeg in Resources */,
 				CA42A5362C1E67A300B661F4 /* robert-f-smith-cover.jpeg in Resources */,
 				CA42A5252C1E43E700B661F4 /* john-jay-cover.jpeg in Resources */,
+				CA42A53E2C1F50E800B661F4 /* hewitt-food-hall.jpeg in Resources */,
 				CA42A4FB2C1E439700B661F4 /* Assets.xcassets in Resources */,
 				CA42A5332C1E67A300B661F4 /* faculty-house-cover.jpeg in Resources */,
+				CAD08D232C1F5FE800757E70 /* sample-logo2-circle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +326,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA42A52A2C1E442700B661F4 /* ColorCode.swift in Sources */,
+				CA42A53C2C1F4D5500B661F4 /* Labels.swift in Sources */,
+				CAD08D1F2C1F53BF00757E70 /* RetailStores.swift in Sources */,
 				CA42A5282C1E441700B661F4 /* DiningHalls.swift in Sources */,
 				CA42A4F92C1E439600B661F4 /* ContentView.swift in Sources */,
 				CA42A4F72C1E439600B661F4 /* LionDiningApp.swift in Sources */,

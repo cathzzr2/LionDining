@@ -7,9 +7,12 @@
 
 import Foundation
 
-struct DiningHalls: Identifiable, Hashable {
+struct DiningHalls: Identifiable, Hashable, Equatable {
+    
     let id = UUID()
     let name: String
     let photo: String
     let hours: String
+    let labels: [Labels]
+    var isPinned: Bool
 }
