@@ -19,6 +19,13 @@
 		CA42A5252C1E43E700B661F4 /* john-jay-cover.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CA42A5222C1E43E700B661F4 /* john-jay-cover.jpeg */; };
 		CA42A5282C1E441700B661F4 /* DiningHalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA42A5272C1E441700B661F4 /* DiningHalls.swift */; };
 		CA42A52A2C1E442700B661F4 /* ColorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA42A5292C1E442700B661F4 /* ColorCode.swift */; };
+		CA42A5322C1E67A300B661F4 /* ferris-booth-commons-cover.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CA42A52B2C1E67A300B661F4 /* ferris-booth-commons-cover.jpeg */; };
+		CA42A5332C1E67A300B661F4 /* faculty-house-cover.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CA42A52C2C1E67A300B661F4 /* faculty-house-cover.jpeg */; };
+		CA42A5352C1E67A300B661F4 /* chef-mike-sub-shop-cover.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CA42A52E2C1E67A300B661F4 /* chef-mike-sub-shop-cover.jpeg */; };
+		CA42A5362C1E67A300B661F4 /* robert-f-smith-cover.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CA42A52F2C1E67A300B661F4 /* robert-f-smith-cover.jpeg */; };
+		CA42A5372C1E67A300B661F4 /* fac-shack-cover.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CA42A5302C1E67A300B661F4 /* fac-shack-cover.jpeg */; };
+		CA42A5382C1E67A300B661F4 /* chef-don-pizza-pi-cover.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CA42A5312C1E67A300B661F4 /* chef-don-pizza-pi-cover.jpeg */; };
+		CA42A53A2C1E6B2500B661F4 /* grace-dodge-cover.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CA42A5392C1E6B2500B661F4 /* grace-dodge-cover.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +61,13 @@
 		CA42A5222C1E43E700B661F4 /* john-jay-cover.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "john-jay-cover.jpeg"; sourceTree = "<group>"; };
 		CA42A5272C1E441700B661F4 /* DiningHalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningHalls.swift; sourceTree = "<group>"; };
 		CA42A5292C1E442700B661F4 /* ColorCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCode.swift; sourceTree = "<group>"; };
+		CA42A52B2C1E67A300B661F4 /* ferris-booth-commons-cover.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ferris-booth-commons-cover.jpeg"; sourceTree = "<group>"; };
+		CA42A52C2C1E67A300B661F4 /* faculty-house-cover.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "faculty-house-cover.jpeg"; sourceTree = "<group>"; };
+		CA42A52E2C1E67A300B661F4 /* chef-mike-sub-shop-cover.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chef-mike-sub-shop-cover.jpeg"; sourceTree = "<group>"; };
+		CA42A52F2C1E67A300B661F4 /* robert-f-smith-cover.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "robert-f-smith-cover.jpeg"; sourceTree = "<group>"; };
+		CA42A5302C1E67A300B661F4 /* fac-shack-cover.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fac-shack-cover.jpeg"; sourceTree = "<group>"; };
+		CA42A5312C1E67A300B661F4 /* chef-don-pizza-pi-cover.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chef-don-pizza-pi-cover.jpeg"; sourceTree = "<group>"; };
+		CA42A5392C1E6B2500B661F4 /* grace-dodge-cover.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "grace-dodge-cover.jpeg"; path = "../../../Downloads/grace-dodge-cover.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +122,13 @@
 				CA42A4F62C1E439600B661F4 /* LionDiningApp.swift */,
 				CA42A4F82C1E439600B661F4 /* ContentView.swift */,
 				CA42A4FA2C1E439700B661F4 /* Assets.xcassets */,
+				CA42A5312C1E67A300B661F4 /* chef-don-pizza-pi-cover.jpeg */,
+				CA42A52E2C1E67A300B661F4 /* chef-mike-sub-shop-cover.jpeg */,
+				CA42A5302C1E67A300B661F4 /* fac-shack-cover.jpeg */,
+				CA42A52C2C1E67A300B661F4 /* faculty-house-cover.jpeg */,
+				CA42A52B2C1E67A300B661F4 /* ferris-booth-commons-cover.jpeg */,
+				CA42A5392C1E6B2500B661F4 /* grace-dodge-cover.jpeg */,
+				CA42A52F2C1E67A300B661F4 /* robert-f-smith-cover.jpeg */,
 				CA42A5202C1E43E700B661F4 /* jj-place-cover.jpeg */,
 				CA42A5212C1E43E700B661F4 /* columbia-dining-logo-sample.jpeg */,
 				CA42A5222C1E43E700B661F4 /* john-jay-cover.jpeg */,
@@ -254,11 +275,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA42A5372C1E67A300B661F4 /* fac-shack-cover.jpeg in Resources */,
+				CA42A5322C1E67A300B661F4 /* ferris-booth-commons-cover.jpeg in Resources */,
 				CA42A4FE2C1E439700B661F4 /* Preview Assets.xcassets in Resources */,
 				CA42A5232C1E43E700B661F4 /* jj-place-cover.jpeg in Resources */,
+				CA42A5382C1E67A300B661F4 /* chef-don-pizza-pi-cover.jpeg in Resources */,
+				CA42A5352C1E67A300B661F4 /* chef-mike-sub-shop-cover.jpeg in Resources */,
 				CA42A5242C1E43E700B661F4 /* columbia-dining-logo-sample.jpeg in Resources */,
+				CA42A53A2C1E6B2500B661F4 /* grace-dodge-cover.jpeg in Resources */,
+				CA42A5362C1E67A300B661F4 /* robert-f-smith-cover.jpeg in Resources */,
 				CA42A5252C1E43E700B661F4 /* john-jay-cover.jpeg in Resources */,
 				CA42A4FB2C1E439700B661F4 /* Assets.xcassets in Resources */,
+				CA42A5332C1E67A300B661F4 /* faculty-house-cover.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
