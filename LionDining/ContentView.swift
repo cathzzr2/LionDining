@@ -94,6 +94,31 @@ struct ContentView: View {
                 Labels(text: "Dollars", color:.yellow),
                 Labels(text: "Flex", color: .purple)
             ], isPinned: false),
+            DiningHalls(name: "Blue Java Café at Bulter Library", photo: "jj-place-cover", hours: "Closed for next 1 week", labels: [
+                Labels(text: "Columbia", color: Color(hex: "75aadb")),
+                Labels(text: "Dollars", color:.yellow),
+                Labels(text: "Flex", color: .purple)
+            ], isPinned: false),
+            DiningHalls(name: "Blue Java Café at Mudd Hall", photo: "jj-place-cover", hours: "Closed for next 1 week", labels: [
+                Labels(text: "Columbia", color: Color(hex: "75aadb")),
+                Labels(text: "Dollars", color:.yellow),
+                Labels(text: "Flex", color: .purple)
+            ], isPinned: false),
+            DiningHalls(name: "Blue Java Café at Uris", photo: "jj-place-cover", hours: "Closed for next 1 week", labels: [
+                Labels(text: "Columbia", color: Color(hex: "75aadb")),
+                Labels(text: "Dollars", color:.yellow),
+                Labels(text: "Flex", color: .purple)
+            ], isPinned: false),
+            DiningHalls(name: "Blue Java at Everett Library Café", photo: "jj-place-cover", hours: "Closed for next 1 week", labels: [
+                Labels(text: "Columbia", color: Color(hex: "75aadb")),
+                Labels(text: "Dollars", color:.yellow),
+                Labels(text: "Flex", color: .purple)
+            ], isPinned: false),
+            DiningHalls(name: "Lenfest Café", photo: "jj-place-cover", hours: "Closed for next 1 week", labels: [
+                Labels(text: "Columbia", color: Color(hex: "75aadb")),
+                Labels(text: "Dollars", color:.yellow),
+                Labels(text: "Flex", color: .purple)
+            ], isPinned: false),
         ]
     
     var body: some View {
@@ -163,7 +188,7 @@ struct ContentView: View {
                                 HStack {
                                     Image(systemName: "pin")
                                         .foregroundColor(.white)
-                                    Text(item.isPinned ? "Unpin" : "Pin to Top")
+                                    Text(item.isPinned ? "Unpin" : "Pin")
                                         .foregroundColor(.white)
                                 }
                                 .padding()
