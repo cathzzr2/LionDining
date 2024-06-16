@@ -1,5 +1,5 @@
 # LionDining
-LionDining is your ultimate companion for dining at Columbia University, providing comprehensive information on-campus and off-campus dining options for students and faculty.
+LionDining is your ultimate companion for dining at Columbia University and Morningside, providing comprehensive information on-campus and off-campus dining options for students and faculty.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/cathzzr2/LionDining/main/Assets/logo-sample.png" width="300" height="300" alt="Logo">
