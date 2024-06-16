@@ -3,6 +3,7 @@ LionDining is your ultimate companion for dining at Columbia University, providi
 
 ### Installation
 To quickly set up LionDining, run the following command in your terminal:
+```bash
 ～ curl -o- https://raw.githubusercontent.com/cathzzr2/LionDining/main/install.sh | bash
 This command will:
 1. Clone the repository.
