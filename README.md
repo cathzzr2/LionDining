@@ -17,7 +17,7 @@ This command will:
 
 ### Open the project
 
-Open LionDining.xcworkspace in Xcode.
+Open LionDining.xcodeproj in Xcode.
 
 ### Contributing
 
