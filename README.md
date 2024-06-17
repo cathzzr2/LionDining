@@ -1,10 +1,8 @@
 # LionDining
-LionDining is your ultimate companion for dining at Columbia University and Morningside, providing comprehensive information on-campus and off-campus dining options for students and faculty.
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cathzzr2/LionDining/main/Assets/logo-sample.png" width="300" height="300" alt="Logo">
+  <img src="https://raw.githubusercontent.com/cathzzr2/LionDining/main/Assets/logo-sample.png" width="400" height="400" alt="Logo">
 </p>
-
+LionDining is your ultimate companion for dining at Columbia University and Morningside, providing comprehensive information on-campus and off-campus dining options for students and faculty.
 ### Installation
 To quickly set up LionDining, run the following command in your terminal:
 ```bash
