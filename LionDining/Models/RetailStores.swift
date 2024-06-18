@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct RetailStores: Identifiable, Hashable, Equatable {
+struct RetailStores: Identifiable, Hashable {
     
     let id = UUID()
     let name: String

@@ -25,9 +25,14 @@
 		CA42A5362C1E67A300B661F4 /* robert-f-smith-cover.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CA42A52F2C1E67A300B661F4 /* robert-f-smith-cover.jpeg */; };
 		CA42A5372C1E67A300B661F4 /* fac-shack-cover.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CA42A5302C1E67A300B661F4 /* fac-shack-cover.jpeg */; };
 		CA42A5382C1E67A300B661F4 /* chef-don-pizza-pi-cover.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CA42A5312C1E67A300B661F4 /* chef-don-pizza-pi-cover.jpeg */; };
-		CA42A53A2C1E6B2500B661F4 /* grace-dodge-cover.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CA42A5392C1E6B2500B661F4 /* grace-dodge-cover.jpeg */; };
-		CA42A53C2C1F4D5500B661F4 /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA42A53B2C1F4D5500B661F4 /* Labels.swift */; };
 		CA42A53E2C1F50E800B661F4 /* hewitt-food-hall.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CA42A53D2C1F50E700B661F4 /* hewitt-food-hall.jpeg */; };
+		CAA912692C2121CC00DF6C7D /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA912682C2121CC00DF6C7D /* Labels.swift */; };
+		CAA9126C2C21246400DF6C7D /* OnCampus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9126B2C21246400DF6C7D /* OnCampus.swift */; };
+		CAA9126E2C2124F900DF6C7D /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9126D2C2124F900DF6C7D /* Banner.swift */; };
+		CAA912702C21264D00DF6C7D /* DiningHallCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9126F2C21264D00DF6C7D /* DiningHallCellView.swift */; };
+		CAA912722C2126F200DF6C7D /* OffCampus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA912712C2126F200DF6C7D /* OffCampus.swift */; };
+		CAA912742C2126FC00DF6C7D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA912732C2126FC00DF6C7D /* Profile.swift */; };
+		CAA912772C212EA100DF6C7D /* DiningHallDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA912762C212EA100DF6C7D /* DiningHallDetail.swift */; };
 		CAD08D1F2C1F53BF00757E70 /* RetailStores.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD08D1E2C1F53BE00757E70 /* RetailStores.swift */; };
 		CAD08D232C1F5FE800757E70 /* sample-logo2-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD08D222C1F5FE700757E70 /* sample-logo2-circle.png */; };
 /* End PBXBuildFile section */
@@ -71,9 +76,14 @@
 		CA42A52F2C1E67A300B661F4 /* robert-f-smith-cover.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "robert-f-smith-cover.jpeg"; sourceTree = "<group>"; };
 		CA42A5302C1E67A300B661F4 /* fac-shack-cover.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fac-shack-cover.jpeg"; sourceTree = "<group>"; };
 		CA42A5312C1E67A300B661F4 /* chef-don-pizza-pi-cover.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chef-don-pizza-pi-cover.jpeg"; sourceTree = "<group>"; };
-		CA42A5392C1E6B2500B661F4 /* grace-dodge-cover.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "grace-dodge-cover.jpeg"; path = "../../../Downloads/grace-dodge-cover.jpeg"; sourceTree = "<group>"; };
-		CA42A53B2C1F4D5500B661F4 /* Labels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Labels.swift; path = ../../../../.Trash/LionDining/LionDining/Models/Labels.swift; sourceTree = "<group>"; };
 		CA42A53D2C1F50E700B661F4 /* hewitt-food-hall.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hewitt-food-hall.jpeg"; sourceTree = "<group>"; };
+		CAA912682C2121CC00DF6C7D /* Labels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Labels.swift; sourceTree = "<group>"; };
+		CAA9126B2C21246400DF6C7D /* OnCampus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnCampus.swift; sourceTree = "<group>"; };
+		CAA9126D2C2124F900DF6C7D /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		CAA9126F2C21264D00DF6C7D /* DiningHallCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningHallCellView.swift; sourceTree = "<group>"; };
+		CAA912712C2126F200DF6C7D /* OffCampus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffCampus.swift; sourceTree = "<group>"; };
+		CAA912732C2126FC00DF6C7D /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		CAA912762C212EA100DF6C7D /* DiningHallDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningHallDetail.swift; sourceTree = "<group>"; };
 		CAD08D1E2C1F53BE00757E70 /* RetailStores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailStores.swift; sourceTree = "<group>"; };
 		CAD08D222C1F5FE700757E70 /* sample-logo2-circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sample-logo2-circle.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,6 +136,8 @@
 		CA42A4F52C1E439600B661F4 /* LionDining */ = {
 			isa = PBXGroup;
 			children = (
+				CAA912752C212E9200DF6C7D /* Page */,
+				CAA9126A2C21244500DF6C7D /* Tabs */,
 				CA42A5262C1E440A00B661F4 /* Models */,
 				CA42A4F62C1E439600B661F4 /* LionDiningApp.swift */,
 				CA42A4F82C1E439600B661F4 /* ContentView.swift */,
@@ -137,7 +149,6 @@
 				CA42A5302C1E67A300B661F4 /* fac-shack-cover.jpeg */,
 				CA42A52C2C1E67A300B661F4 /* faculty-house-cover.jpeg */,
 				CA42A52B2C1E67A300B661F4 /* ferris-booth-commons-cover.jpeg */,
-				CA42A5392C1E6B2500B661F4 /* grace-dodge-cover.jpeg */,
 				CA42A52F2C1E67A300B661F4 /* robert-f-smith-cover.jpeg */,
 				CA42A5202C1E43E700B661F4 /* jj-place-cover.jpeg */,
 				CA42A5212C1E43E700B661F4 /* columbia-dining-logo-sample.jpeg */,
@@ -177,10 +188,30 @@
 			children = (
 				CA42A5272C1E441700B661F4 /* DiningHalls.swift */,
 				CA42A5292C1E442700B661F4 /* ColorCode.swift */,
-				CA42A53B2C1F4D5500B661F4 /* Labels.swift */,
+				CAA912682C2121CC00DF6C7D /* Labels.swift */,
 				CAD08D1E2C1F53BE00757E70 /* RetailStores.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		CAA9126A2C21244500DF6C7D /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				CAA9126B2C21246400DF6C7D /* OnCampus.swift */,
+				CAA9126D2C2124F900DF6C7D /* Banner.swift */,
+				CAA9126F2C21264D00DF6C7D /* DiningHallCellView.swift */,
+				CAA912712C2126F200DF6C7D /* OffCampus.swift */,
+				CAA912732C2126FC00DF6C7D /* Profile.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		CAA912752C212E9200DF6C7D /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				CAA912762C212EA100DF6C7D /* DiningHallDetail.swift */,
+			);
+			path = Page;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,7 +325,6 @@
 				CA42A5382C1E67A300B661F4 /* chef-don-pizza-pi-cover.jpeg in Resources */,
 				CA42A5352C1E67A300B661F4 /* chef-mike-sub-shop-cover.jpeg in Resources */,
 				CA42A5242C1E43E700B661F4 /* columbia-dining-logo-sample.jpeg in Resources */,
-				CA42A53A2C1E6B2500B661F4 /* grace-dodge-cover.jpeg in Resources */,
 				CA42A5362C1E67A300B661F4 /* robert-f-smith-cover.jpeg in Resources */,
 				CA42A5252C1E43E700B661F4 /* john-jay-cover.jpeg in Resources */,
 				CA42A53E2C1F50E800B661F4 /* hewitt-food-hall.jpeg in Resources */,
@@ -326,10 +356,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA42A52A2C1E442700B661F4 /* ColorCode.swift in Sources */,
-				CA42A53C2C1F4D5500B661F4 /* Labels.swift in Sources */,
+				CAA9126C2C21246400DF6C7D /* OnCampus.swift in Sources */,
 				CAD08D1F2C1F53BF00757E70 /* RetailStores.swift in Sources */,
+				CAA912692C2121CC00DF6C7D /* Labels.swift in Sources */,
+				CAA912702C21264D00DF6C7D /* DiningHallCellView.swift in Sources */,
 				CA42A5282C1E441700B661F4 /* DiningHalls.swift in Sources */,
+				CAA9126E2C2124F900DF6C7D /* Banner.swift in Sources */,
 				CA42A4F92C1E439600B661F4 /* ContentView.swift in Sources */,
+				CAA912742C2126FC00DF6C7D /* Profile.swift in Sources */,
+				CAA912722C2126F200DF6C7D /* OffCampus.swift in Sources */,
+				CAA912772C212EA100DF6C7D /* DiningHallDetail.swift in Sources */,
 				CA42A4F72C1E439600B661F4 /* LionDiningApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
